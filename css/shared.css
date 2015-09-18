@@ -5,10 +5,6 @@
   padding: 8rem 0 7rem;
   text-align: center;
 }
-.section-heading,
-.section-description {
-  margin-bottom: 1.2rem;
-}
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
