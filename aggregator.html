@@ -123,6 +123,7 @@
     }
 
     .t-text:before {
+
       border-color: transparent;
       border-top-color: #d1d1d1;
       border-width: 16px;
@@ -148,6 +149,13 @@
     .t-name, .t-company {
       margin-left: 90px;
     }
+
+  q { quotes: "\201C""\201D""\2018""\2019"; }
+
+  q:before { content: open-quote;font-family: 'sans serif'; }
+
+  q:after  { content: close-quote;font-family: 'sans serif'; }
+
 
     /* End of CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -211,7 +219,7 @@
         <div class="row">
           <!-- Start Item -->
           <div class="six columns">
-            <p class="t-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam </p>
+            <p class="t-text"> <q> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam  </q></p>
             <div class="t-author u-cf">
                 <img alt="Quote of" class="u-pull-left" src="">
                 <div class="t-name">John Doe</div>
@@ -221,7 +229,7 @@
           <!-- End Item -->
           <!-- Start Item -->
           <div class="six columns">
-            <p class="t-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam </p>
+            <p class="t-text"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam" </p>
             <div class="t-author u-cf">
                 <img alt="Quote of" class="u-pull-left" src="">
                 <div class="t-name">John Doe</div>
@@ -235,7 +243,7 @@
         <div class="row">
           <!-- Start Item -->
           <div class="six columns">
-            <p class="t-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam </p>
+            <p class="t-text"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam" </p>
             <div class="t-author u-cf">
                 <img alt="Quote of" class="u-pull-left" src="">
                 <div class="t-name">John Doe</div>
@@ -245,7 +253,7 @@
           <!-- End Item -->
           <!-- Start Item -->
           <div class="six columns">
-            <p class="t-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam </p>
+            <p class="t-text"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam" </p>
             <div class="t-author u-cf">
                 <img alt="Quote of" class="u-pull-left" src="">
                 <div class="t-name">John Doe</div>
