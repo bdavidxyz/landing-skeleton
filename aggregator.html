@@ -86,79 +86,7 @@
     /* End of CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-    /* Start of CSS testimonial
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .testimonial {text-align: left; background: #f2f2f2; padding: 8rem 0;}
 
-    .t-text {
-        padding: 12px 20px;
-        background-color: #fff;
-        border: 1px solid #D1D1D1;
-/*        font-size: 1.2rem;
-        line-height: 1.6rem;*/
-        text-align: left;
-        border-radius: 3px;
-        margin-bottom: 2.0rem;
-        position: relative;
-        min-height: 85px;
-
-    }
-
-    .t-text:after,  .t-text:before {
-      top: 100%;
-      left: 40px;
-      border: solid transparent;
-      content: " ";
-      height: 0;
-      width: 0;
-      position: absolute;
-      pointer-events: none;
-    }
-
-    .t-text:after {
-      border-color: transparent;
-      border-top-color: #ffffff;
-      border-width: 15px;
-      margin-left: -15px;
-    }
-
-    .t-text:before {
-
-      border-color: transparent;
-      border-top-color: #d1d1d1;
-      border-width: 16px;
-      margin-left: -16px;
-    }
-
-    .t-author {
-      font-size: 1.2rem;
-      margin-bottom: 50px;
-    }
-
-    .t-author img {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      border: 1px solid #D1D1D1;
-    }
-
-    .t-name {
-      padding-top: 15px;
-      font-weight: 700;
-    }
-    .t-name, .t-company {
-      margin-left: 90px;
-    }
-
-  q { quotes: "\201C""\201D""\2018""\2019"; }
-
-  q:before { content: open-quote;font-family: 'sans serif'; }
-
-  q:after  { content: close-quote;font-family: 'sans serif'; }
-
-
-    /* End of CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
   </style>
 
   <!-- Favicon
@@ -211,64 +139,20 @@
 <!-- End of HTML
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<!-- Start of HTML
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="section testimonial">
-    <div class="container">
-        <!-- 1 line of testimonials -->
-        <div class="row">
-          <!-- Start Item -->
-          <div class="six columns">
-            <p class="t-text"> <q> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam  </q></p>
-            <div class="t-author u-cf">
-                <img alt="Quote of" class="u-pull-left" src="">
-                <div class="t-name">John Doe</div>
-                <div class="t-company">Founder, MyCompany</div>
-            </div>
-          </div>
-          <!-- End Item -->
-          <!-- Start Item -->
-          <div class="six columns">
-            <p class="t-text"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam" </p>
-            <div class="t-author u-cf">
-                <img alt="Quote of" class="u-pull-left" src="">
-                <div class="t-name">John Doe</div>
-                <div class="t-company">Founder, MyCompany</div>
-            </div>
-          </div>
-          <!-- End Item -->
-        </div>
-        <!-- End of  1 line of testimonials -->
-        <!-- 2 line of testimonials -->
-        <div class="row">
-          <!-- Start Item -->
-          <div class="six columns">
-            <p class="t-text"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam" </p>
-            <div class="t-author u-cf">
-                <img alt="Quote of" class="u-pull-left" src="">
-                <div class="t-name">John Doe</div>
-                <div class="t-company">Founder, MyCompany</div>
-            </div>
-          </div>
-          <!-- End Item -->
-          <!-- Start Item -->
-          <div class="six columns">
-            <p class="t-text"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam" </p>
-            <div class="t-author u-cf">
-                <img alt="Quote of" class="u-pull-left" src="">
-                <div class="t-name">John Doe</div>
-                <div class="t-company">Founder, MyCompany</div>
-            </div>
-          </div>
-          <!-- End Item -->
-        </div>
-        <!-- End of  2 line of testimonials -->
-    </div>
-  </div>
-<!-- End of HTML
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div id="second">
+
+</div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+  <script type="text/javascript">
+    $('head').append(
+      '<link rel="stylesheet" href="section_testimonial_1/section_testimonial_1.css" type="text/css" />'
+      );
+    $(function(){
+      $("#second").load("section_testimonial_1/section_testimonial_1.html");
+    });
+  </script>
 </body>
 </html>

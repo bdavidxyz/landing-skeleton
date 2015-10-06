@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Values</title>
+  <title>Testimonial</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Montserrat:700|Lato:600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:700|Open+Sans|Lato|Oxygen|Nunito" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -25,23 +25,24 @@
   <link rel="stylesheet" href="css/shared.css">
   <style type="text/css">
 
-    /* section_t1 Start of CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .t1 {text-align: left; background: #f2f2f2; padding: 8rem 0;}
 
-    .t1-text {
+    /* Start of CSS testimonial
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .testimonial {text-align: left;}
+
+    .t-text {
         padding: 12px 20px;
         background-color: #fff;
         border: 1px solid #D1D1D1;
         text-align: left;
-        border-radius: 3px;
+        border-radius: 20px;
         margin-bottom: 2.0rem;
         position: relative;
         min-height: 85px;
 
     }
 
-    .t1-text:after,  .t1-text:before {
+    .t-text:after,  .t-text:before {
       top: 100%;
       left: 40px;
       border: solid transparent;
@@ -52,43 +53,50 @@
       pointer-events: none;
     }
 
-    .t1-text:after {
+    .t-text:after {
       border-color: transparent;
       border-top-color: #ffffff;
       border-width: 15px;
       margin-left: -15px;
     }
 
-    .t1-text:before {
+    .t-text:before {
+
       border-color: transparent;
       border-top-color: #d1d1d1;
       border-width: 16px;
       margin-left: -16px;
     }
 
-    .t1-author {
+    .t-author {
       font-size: 1.2rem;
       margin-bottom: 50px;
     }
 
-    .t1-author img {
+    .t-author img {
       width: 80px;
       height: 80px;
       border-radius: 50%;
       border: 1px solid #D1D1D1;
     }
 
-    .t1-name {
+    .t-name {
       padding-top: 15px;
       font-weight: 700;
     }
-    .t1-name, .t1-company {
+    .t-name, .t-company {
       margin-left: 90px;
     }
 
-    /* section_t1 End of CSS
+  q { quotes: "\201C""\201D""\2018""\2019"; }
+
+  q:before { content: open-quote;font-family: 'sans serif'; }
+
+  q:after  { content: close-quote;font-family: 'sans serif'; }
+
+
+    /* testimonial End of CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  </style>
   </style>
 
   <!-- Favicon
@@ -98,7 +106,7 @@
 </head>
 <body>
 
-<!-- section_t1  Start of HTML
+<!-- Start of HTML
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="section testimonial">
     <div class="container">
@@ -106,21 +114,21 @@
         <div class="row">
           <!-- Start Item -->
           <div class="six columns">
-            <p class="t1-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam </p>
-            <div class="t1-author u-cf">
-                <img alt="Quote of" class="u-pull-left" src="">
-                <div class="t1-name">John Doe</div>
-                <div class="t1-company">Founder, MyCompany</div>
+            <p class="t-text"> <q> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam  </q></p>
+            <div class="t-author u-cf">
+                <img alt="Quote of" class="u-pull-left" src="http://themeforces.com/demo/freebies/tf-free-no.3/img/team/01.jpg">
+                <div class="t-name">John Doe</div>
+                <div class="t-company">Founder, MyCompany</div>
             </div>
           </div>
           <!-- End Item -->
           <!-- Start Item -->
           <div class="six columns">
-            <p class="t1-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam </p>
-            <div class="t1-author u-cf">
-                <img alt="Quote of" class="u-pull-left" src="">
-                <div class="t1-name">John Doe</div>
-                <div class="t1-company">Founder, MyCompany</div>
+            <p class="t-text"> <q> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam  </q></p>
+            <div class="t-author u-cf">
+                <img alt="Quote of" class="u-pull-left" src="http://themeforces.com/demo/freebies/tf-free-no.3/img/team/02.jpg">
+                <div class="t-name">Jane Doe</div>
+                <div class="t-company">Head of marketing, MyCompany</div>
             </div>
           </div>
           <!-- End Item -->
@@ -130,21 +138,21 @@
         <div class="row">
           <!-- Start Item -->
           <div class="six columns">
-            <p class="t1-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam </p>
-            <div class="t1-author u-cf">
-                <img alt="Quote of" class="u-pull-left" src="">
-                <div class="t1-name">John Doe</div>
-                <div class="t1-company">Founder, MyCompany</div>
+            <p class="t-text"> <q> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam  </q></p>
+            <div class="t-author u-cf">
+                <img alt="Quote of" class="u-pull-left" src="http://themeforces.com/demo/freebies/tf-free-no.3/img/team/03.jpg">
+                <div class="t-name">William Smith</div>
+                <div class="t-company">CTO, MyCompany</div>
             </div>
           </div>
           <!-- End Item -->
           <!-- Start Item -->
           <div class="six columns">
-            <p class="t1-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam </p>
-            <div class="t1-author u-cf">
-                <img alt="Quote of" class="u-pull-left" src="">
-                <div class="t1-name">John Doe</div>
-                <div class="t1-company">Founder, MyCompany</div>
+            <p class="t-text"> <q> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia possimus iusto rerum, facilis, dignissimos labore numquam  </q></p>
+            <div class="t-author u-cf">
+                <img alt="Quote of" class="u-pull-left" src="http://themeforces.com/demo/freebies/tf-free-no.3/img/team/04.jpg">
+                <div class="t-name">Lana Smith</div>
+                <div class="t-company">Founder, OtherCompany</div>
             </div>
           </div>
           <!-- End Item -->
@@ -152,11 +160,8 @@
         <!-- End of  2 line of testimonials -->
     </div>
   </div>
-<!-- section_t1 End of HTML
+<!-- End of HTML
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
-
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
