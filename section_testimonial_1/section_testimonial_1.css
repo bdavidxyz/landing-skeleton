@@ -1,4 +1,4 @@
- /* Start of CSS testimonial
+ /* section_testimonial_1 Start of CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
     .testimonial {text-align: left;}
 
@@ -11,7 +11,7 @@
         margin-bottom: 2.0rem;
         position: relative;
         min-height: 85px;
-
+        box-shadow: 1px 1px 1px #888888;
     }
 
     .t-text:after,  .t-text:before {
@@ -67,5 +67,5 @@
   q:after  { content: close-quote;font-family: 'sans serif'; }
 
 
-/* testimonial End of CSS
+/* section_testimonial_1 End of CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
