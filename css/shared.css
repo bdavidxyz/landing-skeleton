@@ -2,27 +2,27 @@
  Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
-  padding: 8rem 0 7rem;
+  margin: 8rem 0 7rem;
   text-align: center;
 }
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
-    padding: 12rem 0 11rem;
+    margin: 7rem 0 11rem;
   }
 }
 
 /* Bigger than 750 */
 @media (min-width: 750px) {
   .section {
-    padding: 14rem 0 15rem;
+    margin: 7rem 0 15rem;
   }
 }
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   .section {
-    padding: 20rem 0 19rem;
+    margin: 7rem 0 19rem;
   }
 }
