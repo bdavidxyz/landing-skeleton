@@ -62,6 +62,14 @@
       $("#first-hook").load("section_hero_1/section_hero_1.html");
     });
 
+    // Hero section2
+    $.get("section_hero_2/section_hero_2.html", function (data) {
+        $("body").prepend(data);
+    });
+    $('head').append(
+    '<link rel="stylesheet" href="section_hero_2/section_hero_2.css" type="text/css" />'
+    );
+    
     // Values
     $('head').append(
       '<link rel="stylesheet" href="section_values_1/section_values_1.css" type="text/css" />'

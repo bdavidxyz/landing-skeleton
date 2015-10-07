@@ -6,6 +6,8 @@
   text-align: center;
 }
 
+img {max-width: 100%}
+
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {

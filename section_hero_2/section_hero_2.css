@@ -1,0 +1,56 @@
+/* section_hero_2  Start of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+    width: 100%;
+    height: 100%!important;
+}
+
+.hero2_menu,
+.hero2 {margin: 0;}
+
+
+.hero2_menu {
+	position: relative;
+	z-index: 20; 
+	padding: 10px 0;
+	background: #fff;
+	text-align: left;
+}
+
+.hero2_menu img {max-height: 40px;}
+
+.hero2_menu .menu {text-align: right; font-size: 1.2rem; line-height: 40px;}
+
+.hero2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -60px;
+    display: table;
+    text-align: center;
+}
+
+.hero2>div {
+	display:table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+/* Smaller than 767 */
+@media (max-width: 767px) {
+	.hero2_menu,
+	.hero2_menu .menu {text-align: center;}
+}
+
+/* Smaller than 550 */
+@media (max-width: 550px) {
+	.hero2 {
+		top: 0;
+		height: auto;
+		padding: 15% 0;
+	}
+}
+
+/* section_hero_2  End of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
