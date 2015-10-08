@@ -1,17 +1,37 @@
-Landing Skeleton
-===============
+<h1 align="center">Landing skeleton</h1>
+<p align="center">
+  <img title="backbone marionette" src='marionette-logo.png' />
+</p>
+<p align="center">Landing page framework</p>
 
-CSS tools and guidelines to build high converting landing page.
 
+## About Landing Skeleton
 
-How to use
-===============
+Landing Skeleton is here to simplify the construction of landing page.
 
-1. Clone this repository
-2. Take any of the example you like (under folder examples/)
-3. Copy/Paste HTML and CSS of any section you like (under folder sections/)
+It is a collection of section that you can assemble and customize to build your own landing page.
 
-Contribution
-===============
+### Why LandingSkeleton
 
-1. Clone this repository, make a branch and make a pull request
+WIP
+
+### Key benefits
+
+WIP
+
+### Contact me
+
+We're happy to find new contributors, we reply to each request individually. davbohr at gmail dot com
+
+## How to Contribute
+
+If you would like to contribute to Landing Skeleton source code, please read
+the [guidelines for pull requests and contributions](https://help.github.com/articles/using-pull-requests/).
+Following these guidelines will help make your contributions easier to
+bring into the next release.
+
+### [GitHub Issues](//github.com/davidb583/landing-skeleton/issues)
+
+Report issues with LandingSkeleton, submit pull requests to fix problems, or to
+create summarized and documented feature requests (preferably with pull
+requests that implement the feature).
