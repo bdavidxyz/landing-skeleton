@@ -39,23 +39,47 @@
   }
 }
 
-
-/* Bigger than 1000 */
-@media (min-width: 1000px) {
-  .r1 .five.columns {
-      width: 39.3%;
+/* Lower than 1100px */
+@media (max-width: 1100px) {
+  .r1 input[type="email"] {
+    width: 300px;
   }
-  .r1-demonstration {
-    text-align: right;
+  .r1 input[type="submit"] {
+    width: 300px;
   }
 }
 
+
+/* else */
 .r1 .five.columns {
 width: 100%;
 margin-left: 0px;
 }
 .r1-demonstration {
   text-align: center;
+}
+.r1 .seven.columns {
+  width: 100%;
+  margin-left: 0px;
+}
+.r1-explanation {
+  text-align: center;
+}
+
+/* Bigger than 1100 */
+@media (min-width: 1100px) {
+  .r1 .five.columns {
+      width: 39.3%;
+  }
+  .r1-demonstration {
+    text-align: right;
+  }
+  .r1 .seven.columns {
+      width: 56.6%;
+  }
+  .r1-explanation {
+    text-align: left;
+  }
 }
 
 /* section_hero_1  End of CSS
