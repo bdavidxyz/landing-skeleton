@@ -24,6 +24,7 @@ input[type="button"] {
   font-size: 19px;
   line-height: 64px;
   text-transform: none;
+  box-shadow: 2px 2px 2px grey;
 }
 
 /* Forms
@@ -38,4 +39,8 @@ input[type="password"],
 textarea,
 select {
   height: 64px;
+}
+
+.container {
+  max-width: 1280px;
 }

@@ -1,0 +1,86 @@
+/* section_hero_1  Start of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.r1-why li {
+  font-size: 2rem;
+  font-weight:200;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.r1-explanation {
+  margin-top: 100px;
+}
+.r1-demonstration {
+}
+.r1-demonstration img {
+}
+.r1-heading {
+  font-family: "Lato";
+  font-weight: 150;
+  font-size: 3rem;
+}
+
+/* Bigger than 1330px */
+@media (min-width: 1330px) {
+  .r1 input[type="email"] {
+    width: 300px;
+  }
+  .r1 input[type="submit"] {
+    width: 300px;
+  }
+}
+/* Lower than 1330px */
+@media (max-width: 1330px) {
+  .r1 input[type="email"] {
+    width: 230px;
+  }
+  .r1 input[type="submit"] {
+    width: 230px;
+  }
+}
+
+/* Lower than 1100px */
+@media (max-width: 1100px) {
+  .r1 input[type="email"] {
+    width: 300px;
+  }
+  .r1 input[type="submit"] {
+    width: 300px;
+  }
+}
+
+
+/* else */
+.r1 .five.columns {
+width: 100%;
+margin-left: 0px;
+}
+.r1-demonstration {
+  text-align: center;
+}
+.r1 .seven.columns {
+  width: 100%;
+  margin-left: 0px;
+}
+.r1-explanation {
+  text-align: center;
+}
+
+/* Bigger than 1100 */
+@media (min-width: 1100px) {
+  .r1 .five.columns {
+      width: 39.3%;
+  }
+  .r1-demonstration {
+    text-align: right;
+  }
+  .r1 .seven.columns {
+      width: 56.6%;
+  }
+  .r1-explanation {
+    text-align: left;
+  }
+}
+
+/* section_hero_1  End of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
