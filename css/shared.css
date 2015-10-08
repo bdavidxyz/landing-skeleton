@@ -26,3 +26,19 @@
     margin: 7rem 0 19rem;
   }
 }
+
+/*
+ Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.right-aligned {
+  text-align: right;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.center-aligned {
+  text-align: center;
+}

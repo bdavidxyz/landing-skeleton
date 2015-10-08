@@ -24,6 +24,7 @@ input[type="button"] {
   font-size: 19px;
   line-height: 64px;
   text-transform: none;
+  box-shadow: 2px 2px 2px grey;
 }
 
 /* Forms
