@@ -1,20 +1,18 @@
 /* section_values_1 Start of CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.values {
-  background-color: #33c3f0;
+.v1 {
   background-size: cover;
-  color: #fff;
   padding-bottom: 5rem;
   padding-top: 5rem;
 }
-.value-multiplier {
+.v1-multiplier {
   margin-bottom: .5rem;
-  color: #c9e5ee;
+  color: #33c3f0;
 }
-.value-heading {
+.v1-heading {
   margin-bottom: .3rem;
 }
-.value-description {
+.v1-description {
   opacity: .8;
   font-weight: 300;
 }
