@@ -1,6 +1,6 @@
 <h1 align="center">Landing skeleton</h1>
 <p align="center">
-  <img title="backbone marionette" src='marionette-logo.png' />
+  <img title="landing page builder tool" src='http://www.follomie.fr/images/website-design-2-xxl.png' />
 </p>
 <p align="center">Landing page framework</p>
 
