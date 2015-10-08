@@ -13,7 +13,7 @@ It is a collection of section that you can assemble and customize to build your 
 
 ### Why LandingSkeleton
 
-WIP
+WIP.
 
 ### Key benefits
 
