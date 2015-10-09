@@ -1,0 +1,50 @@
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+{cursor:help}u,ins{text-decoration:none}ins{border-bottom:1px solid}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,
+*:before,*:after{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}
+li>ol{margin-bottom:0}img{max-width:100%;font-style:italic;vertical-align:middle}.gm-style img,img[width],img[height]{max-width:none}a{color:#ee3f33;
+text-decoration:none}a:hover,a:focus{text-decoration:underline;color:#C21A01}
+ltr;text-align:left}.list-inline{margin:0;padding:0;list-style:none}.list-inline>li{display:inline-block}.list-bare{margin:0;padding:0;list-style:none}
+
+body{
+	background-image: url(img/simple_gradient_background_by_waitn2drive-d4fycra.jpg); background-size: cover; background-attachment: fixed;background-position: center;
+}
+.navbar-right{position:absolute;right:0;padding-left:24px}.navbar-right__item{display:inline-block;margin-right:24px}
+
+@media screen and (min-width: 45em){.homepage-navbar{margin-bottom:-120px}}
+.homepage-navbar .navbar-fixer{background-color:transparent}
+ .navbar-fixer{background: white none repeat scroll 0 0; display: block;  height: 50px; max-width: 1600px; position: fixed; top: 0; transition: all 0.06667s ease 0s;width: 100%; z-index: 100;}
+ @media screen and (max-width: 44.9375em){}
+.homepage-navbar .navbar-scroll{background-color:rgba(255,255,255,0.94)}
+.homepage-navbar .navbar-scroll .navbar-logo{background-image:url("../Resources/public/images/Header/cariboo-reduction.png")}
+@media screen and (max-width: 44.9375em){.homepage-navbar .navbar-scroll .navbar-logo{background-image:url("../Resources/public/images/Header/cariboo-logo-header.png")}}
+.homepage-navbar .navbar-scroll .navbar-logo>.homepage-logo__image{display:none}@media screen and (min-width: 45em){.homepage-navbar .navbar-logo{background-image:none}
+.homepage-navbar .navbar-logo>.homepage-logo__image{display:block;height:96px;width:184px}}
+.homepage-navbar .navbar-top .navbar-right{height:50px;line-height:50px;top:35px;background-color:rgba(255,255,255,0.8);border-top-left-radius:6px;border-bottom-left-radius:6px}
+.homepage-navbar .navbar-top .navbar__menu{top:-35px;padding-top:85px}
+.navbar__menu{position:absolute;top:0;right:0;z-index:-1;height:100vh;background-color:rgba(255,255,255,0.94);padding-top:50px;-webkit-transition:width 0.6s ease;transition:width 0.6s ease}
+.navbar__menu--on{width:100%}.navbar__menu--on .navbar__menu__content{opacity:1}
+.navbar__menu--off{width:0%}.navbar__menu--off .navbar__menu__content{opacity:0;}
+.navbar__menu__content{position:absolute;padding:0;padding-right:48px;width:100%;text-align:right;line-height:normal;transition:opacity 0.9s ease-out}
+.navbar__menu__content a{color:#282828;-webkit-transition:padding-right 0.2s ease;transition:padding-right 0.2s ease}
+.navbar__menu__content a:hover,.navbar__menu__content a:active{color:#282828;padding-right:12px}
+.navbar__menu__content a:focus{color:#282828}.navbar__menu__content a.navbar__menu__submenu--on{padding-right:48px;color:#6b6e80}
+.navbar__menu__title{display:block;font-size:100%;text-transform:uppercase;margin:0;padding-top:24px}
+.navbar__menu__submenu__list__link{display:block;padding-top:12px}
+.navbar-top .navbar__menu{top:0;padding-top:120px}
+.navbar-submenu{display:none}
+@media screen and (max-width: 44.9375em){.navbar-phone-menu{position:absolute;left:12px;display:block;width:40px;height:40px;text-align:center;line-height:40px;font-size:30px}}
+.phone-navbar{position:fixed;top:0;left:-70%;z-index:100;width:70%;height:100%;overflow:auto;background-color:#090F13;box-shadow:inset -1.5em 0 1.5em -0.75em rgba(0,0,0,0.25);font-size:18px;color:#ddd;transition:left 0.5s ease}
+.phone-navbar a{display:block;width:100%;height:45px;padding-left:24px;line-height:45px;color:#fff}
+.phone-navbar a:hover,.phone-navbar a:active,.phone-navbar a:focus{background-color:#192a36;color:#fff;text-decoration:none}
+.phone-navbar-title{font-size:12px;color:#ddd;padding-left:12px;padding-top:12px;margin:0}@media screen and (max-width: 44.9375em){.phone-navbar-on{left:0}}
+.phone-navbar-logo{display:block;height:52px;width:100%;background-image:url("../Resources/public/images/Header/cariboo-blanc.png");background-repeat:no-repeat;background-size:77px 40px;background-position:center center}
+.page-nav{background-color:#111d24}.navicon{display:inline-block;padding:7.5px 3.75px;cursor:pointer;user-select:none;border-radius:5px;line-height:0;-webkit-trasition:0.3s;-moz-trasition:0.3s;-ms-trasition:0.3s;-o-trasition:0.3s;trasition:0.3s}
+
+.lines{display:inline-block;width:15px;height:2px;background:#6b6e80;border-radius:5px;-webkit-trasition:0.3s;-moz-trasition:0.3s;-ms-trasition:0.3s;-o-trasition:0.3s;trasition:0.3s;position:relative;top:-5px}
+.lines:before,.lines:after{display:inline-block;width:15px;height:2px;background:#6b6e80;border-radius:5px;-webkit-trasition:0.3s;-moz-trasition:0.3s;-ms-trasition:0.3s;-o-trasition:0.3s;trasition:0.3s;position:absolute;left:0;content:'';-webkit-transform-origin:1.25px center;-moz-transform-origin:1.25px center;-ms-transform-origin:1.25px center;-o-transform-origin:1.25px center;transform-origin:1.25px center}
+.lines:before{top:5px}.lines:after{top:-5px}.navicon.x .lines{-webkit-trasition:background 0.3s 0.6s ease;-moz-trasition:background 0.3s 0.6s ease;-ms-trasition:background 0.3s 0.6s ease;-o-trasition:background 0.3s 0.6s ease;trasition:background 0.3s 0.6s ease}
+.navicon.x .lines:before,.navicon.x .lines:after{-webkit-transform-origin:50% 50%;-moz-transform-origin:50% 50%;-ms-transform-origin:50% 50%;-o-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transition:top 0.3s 0.3s ease,transform 0.3s ease;-ms-transition:top 0.3s 0.3s ease,transform 0.3s ease;transition:top 0.3s 0.3s ease,transform 0.3s ease}
+.navicon.x.close .lines{-webkit-transition:background 0.3s 0s ease;-ms-transition:background 0.3s 0s ease;transition:background 0.3s 0s ease;background:transparent}
+.navicon.x.close .lines:before,.navicon.x.close .lines:after{-webkit-transition:top 0.3s ease,transform 0.3s 0.3s ease;-ms-transition:top 0.3s ease,transform 0.3s 0.3s ease;transition:top 0.3s ease,transform 0.3s 0.3s ease;top:0;width:15px}
+.navicon.x.close .lines:before{-webkit-transform:rotate3d(0, 0, 1, 45deg);-ms-transform:rotate3d(0, 0, 1, 45deg);transform:rotate3d(0, 0, 1, 45deg)}
+.navicon.x.close .lines:after{-webkit-transform:rotate3d(0, 0, 1, -45deg);-ms-transform:rotate3d(0, 0, 1, -45deg);transform:rotate3d(0, 0, 1, -45deg)}
