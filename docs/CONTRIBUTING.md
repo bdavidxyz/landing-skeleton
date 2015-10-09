@@ -1,6 +1,9 @@
+LandingSkeleton has a few guidelines to facilitate your contribution and streamline
+the process of getting changes merged in and released.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [Setting up LandingSkeleton locally](#setting-up-landingskeleton-locally)
 - [Adding a new section](#adding-a-new-section)
@@ -10,21 +13,11 @@
   - [Write code for only one section at a time](#write-code-for-only-one-section-at-a-time)
   - [Naming convention](#naming-convention)
   - [Folder and file structure](#folder-and-file-structure)
-- [add a README for your section](#add-a-readme-for-your-section)
+- [add a README.md for your section](#add-a-readmemd-for-your-section)
 - [Make a pull request](#make-a-pull-request)
 - [Updating docs](#updating-docs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-LandingSkeleton has a few guidelines to facilitate your contribution and streamline
-the process of getting changes merged in and released.
-
-1. [Setting up LandingSkeleton locally](#setting-up-landingskeleton-locally)
-2. [Adding a new section](#adding-a-new-section)
-  1. [Different kind of sections](#different-kind-of-sections)
-  2. [Naming convention](#naming-convention)
-  3. [Folder and file structure](#Folder-and-file-structure)
-3. [Updating docs](#updating-docs)
 
 
 ## Setting up LandingSkeleton locally
@@ -114,13 +107,13 @@ Selectors within section_hero_3.css will be for exemple as follow
 
 Look at section_hero_2 for an example of how things works.
 
-## add a README for your section
+## add a README.md for your section
 
 It is mandatory to add a README for your section.
 ```
 README.md
 ├── screenshot
-├── live_example
+├── example_of_use
 └── inspired_by
 ```
 
