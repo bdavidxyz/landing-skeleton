@@ -7,7 +7,6 @@
   - [Sample of use](#sample-of-use)
   - [Inspired by](#inspired-by)
   - [Design notes](#design-notes)
-  - [Suggestions](#suggestions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

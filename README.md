@@ -43,7 +43,7 @@ We're happy to find new contributors, we reply to each request individually. dav
 ## How to Contribute
 
 If you would like to contribute to Landing Skeleton source code, please read
-the [guidelines for pull requests and contributions](https://help.github.com/articles/using-pull-requests/).
+the [guidelines for pull requests and contributions](docs/CONTRIBUTING.md).
 Following these guidelines will help make your contributions easier to
 bring into the next release.
 

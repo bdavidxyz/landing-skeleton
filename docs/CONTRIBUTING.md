@@ -11,6 +11,7 @@
   - [Naming convention](#naming-convention)
   - [Folder and file structure](#folder-and-file-structure)
 - [add a README for your section](#add-a-readme-for-your-section)
+- [Make a pull request](#make-a-pull-request)
 - [Updating docs](#updating-docs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -123,6 +124,9 @@ README.md
 └── inspired_by
 ```
 
+## Make a pull request
+
+See [official Github guide](https://help.github.com/articles/using-pull-requests/)
 
 ## Updating docs
 
