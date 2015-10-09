@@ -9,15 +9,19 @@
 
 Landing Skeleton is here to simplify the construction of landing page.
 
-It is a collection of section that you can assemble and customize to build your own landing page.
+It is a collection of sections that you can assemble, extend, customize or create to build your own landing page.
 
-### Why LandingSkeleton
-
-WIP.
 
 ### Key benefits
 
-WIP
+ - **Hit the ground and running** - you have a working landing page from day 1
+ - **Damn simple** - Everything is thinking to reduce the effort of the developer
+ - **Damn fast** - Landing page are one special kind of website, they are only opened by newcomers, who won't spend more than 5 seconds to read it. Therefore, the tool will guide you to make a landing page that displays entirely in less than 1 second.
+ - **Strongly opinionated** - The tool is born after working a lot on landing page optimization. So you won't make the same mistakes again.
+ - **Minimalistic** - Very few files, very few lines, so that you completly take control of the tool.
+ - **Code that you own** -  Now SEO is yours again. It does belong any to the previous commercial tool you used.
+ - **Fast iteration** - because you own a minimalistic code, it is not a big deal to change your landing page as fast as the business require. This is a good thing, since landing page should change fast to find their maximal converting rate.
+
 
 ### Contact me
 
