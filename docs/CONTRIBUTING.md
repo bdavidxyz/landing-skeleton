@@ -1,10 +1,11 @@
 LandingSkeleton has a few guidelines to facilitate your contribution and streamline
 the process of getting changes merged in and released.
 
-1. [Chapter 1](#chapter-1)
-2. [Chapter 2](#chapter-2)
-  1. [When this](#when-this)
-  2. [When that](#when-that)
+1. [Setting up LandingSkeleton locally](#setting-up-landingskeleton-locally)
+2. [Adding a new section](#adding-a-new-section)
+  1. [Different kind of sections](#different-kind-of-sections)
+  2. [Naming convention](#naming-convention)
+  3. [Folder and file structure](#Folder-and-file-structure)
 3. [Updating docs](#updating-docs)
 
 
@@ -22,6 +23,10 @@ The strength of the tool lies into the number of section you can combine.
 Every suggestion for a new section is warmly welcomed.
 Here are a few guidelines when you want to add a new section to the tool.
 
+### Hook it to an example
+
+Before to code a section, look at section
+
 ### Different kind of sections
 
 There are different kind of sections, with the letter that defines them.
@@ -36,18 +41,21 @@ There are different kind of sections, with the letter that defines them.
  * Pricing (p): Show your customer how much it will cost.
  * Footer (ft): On the bottom of the page.
 
-### Name a branch by the name of the section
+### Naming convention
 
 Here is the naming convention : name-number. The number is the first available number for the given section.
 
 Example : is there are already 2 hero_section, your new hero section will be name section_hero_3, and css selector must ALL start with .r3- to avoid naming collision.
+
+### Folder and file structure
 
 Folders and files will be as follow :
 
 ```
 section_hero_3/
 ├── section_hero_3.css
-└── section_hero_3.html
+├── section_hero_3.html
+└── README.md
 ```
 
 Selectors within section_hero_3.css will be for exemple as follow
@@ -66,15 +74,14 @@ Selectors within section_hero_3.css will be for exemple as follow
 
 Look at section_hero_2 for an example of how things works.
 
-### Escape css specificity by the name of the section
+### a README is mandatory for each section
 
 Each selector must start with the name of the section, to avoid naming collision.
 
 Example : .r3-expla
 
-
 ###
 
 ## Updating docs
 
-blah-blah
+wip
