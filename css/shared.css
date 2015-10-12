@@ -46,3 +46,21 @@
 .container-wide {
   max-width: 1280px;
 }
+
+/*Custom Margin, Padding*/
+.marginnone{margin:0;}
+.margintop10{margin-top:10px;}
+.margintop20{margin-top:20px;}
+.margintop40{margin-top:40px;}
+.marginbottom10{margin-bottom:10px;}
+.marginbottom20{margin-bottom:20px;}
+.marginbottom40{margin-bottom:40px;}
+.marginbottom80{margin-bottom:80px;}
+.paddingnone{padding:0;}
+.paddingtopnone{ padding-top:0;}
+.paddingtop10{padding-top:10px;}
+.paddingtop20{padding-top:20px;}
+.paddingtop40{padding-top:40px;}
+.paddingbottom10{padding-bottom:10px;}
+.paddingbottom20{padding-bottom:20px;}
+.paddingbottom40{padding-bottom:40px;}
