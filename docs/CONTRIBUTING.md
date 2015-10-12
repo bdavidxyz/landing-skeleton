@@ -12,6 +12,11 @@ the process of getting changes merged in and released.
   - [Write code for only one section at a time](#write-code-for-only-one-section-at-a-time)
   - [Naming convention](#naming-convention)
   - [Folder and file structure](#folder-and-file-structure)
+  - [Start and end of file](#start-and-end-of-file)
+  - [Things to avoid](#things-to-avoid)
+  - [Use of font and typefaces](#use-of-font-and-typefaces)
+  - [Use of external dependencies](#use-of-external-dependencies)
+- [Run doctoc](#run-doctoc)
 - [Make a pull request](#make-a-pull-request)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -96,6 +101,54 @@ Selectors within section_hero_3.css will be for exemple as follow
 
 Look at section_hero_2 for an example of how things works.
 
+
+### Start and end of file
+
+Each css file MUST start with comment
+
+```
+/* section_hero_1  Start of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+```
+
+Each css file MUST ends with comment
+
+```
+/* section_hero_1  End of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+```
+
+It is because user will copy/paste CSS in order to add section.
+Thus, it will be easier to remove the right section and to locate code.
+
+** Same principle apply for HTML file, see section_hero_2.html for an example**
+
+### Things to avoid
+
+Never use an existing logo
+Never use real name of people
+Never use real photo of people
+
+There are tons of free pictures and icons, fake name are easy to create.
+
+### Use of font and typefaces
+
+Remember that each section must be compatible for each other, so you DON'T have the choice for properties like font-family, font-size, font-weight etc, you must use the ones currently used by default.
+
+The end user have the ability to change them, etc but each section MUST conform to the default settings when you code them.
+
+### Use of external dependencies
+
+You should avoid use of external dependencies (jQuery, fontawesome) as much as possible. In order not to decrease display speed of the landing page. Unless stricly necessary AND well documented in the README.md of the section.
+
+## Run doctoc
+
+Run doctoc to create table of content for each README
+
+```
+npm install -g doctoc
+doctoc .
+```
 
 ## Make a pull request
 
