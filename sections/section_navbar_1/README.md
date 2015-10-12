@@ -2,9 +2,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Section Hero 1](#section-hero-1)
+- [Section Navbar 1](#section-navbar-1)
   - [Screenshot](#screenshot)
-  - [Inspired by Robinhood](#inspired-by-robinhood)
+  - [Screenshot responsive](#screenshot-responsive)
   - [Design notes](#design-notes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -17,11 +17,11 @@
 
 ## Screenshot responsive
 
-![Screenshot](http://res.cloudinary.com/landingskeleton/image/upload/v1444657940/section_navbar_1_responsive_i3h85x.png)
+<p>
+  <img src="http://res.cloudinary.com/landingskeleton/image/upload/v1444657940/section_navbar_1_responsive_i3h85x.png" align="middle">
+</p>
 
 ## Design notes
-
-Check yourself
 
 Navbar require a very little coding effort : you must link section ids with href of menus so that navigation works.
 
