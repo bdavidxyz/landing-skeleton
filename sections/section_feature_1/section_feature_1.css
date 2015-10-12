@@ -41,6 +41,7 @@ li {
 }
 .f1 .feature-items {
     position: relative;
+    text-align: left;
 }
 .f1 .feature-items .disc {
     width: 60px;

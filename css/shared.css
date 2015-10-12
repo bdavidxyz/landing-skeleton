@@ -6,10 +6,17 @@ section {
   text-align: center;
 }
 
+section.section-top {
+  padding: 3rem 0 7rem;
+}
+
 /* Bigger than 550 */
 @media (min-width: 550px) {
   section {
     padding: 7rem 0 11rem;
+  }
+  section.section-top {
+    padding: 5rem 0 7rem;
   }
 }
 
@@ -18,12 +25,18 @@ section {
   section {
     padding: 7rem 0 15rem;
   }
+  section.section-top {
+    padding: 9rem 0 7rem;
+  }
 }
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   section {
-    padding: 7rem 0 19rem;
+    padding: 7rem 0 7rem;
+  }
+  section.section-top {
+    padding: 12rem 0 7rem;
   }
 }
 
