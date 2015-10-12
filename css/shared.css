@@ -42,3 +42,7 @@
 .center-aligned {
   text-align: center;
 }
+
+.container-wide {
+  max-width: 1280px;
+}

@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Exemple 1</title>
+  <title>Section values 1</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,64 +15,40 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Montserrat:700|Open+Sans|Lato:200|Oxygen|Nunito|Raleway|Roboto|Muli|Work+Sans|Poppins|Karla|Varela+Round|Nobile" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:700|Open+Sans" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/skeleton.css">
-  <link rel="stylesheet" href="../css/landing.css">
-  <link rel="stylesheet" href="../css/shared.css">
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/skeleton.css">
+  <link rel="stylesheet" href="../../css/landing.css">
+  <link rel="stylesheet" href="../../css/shared.css">
 
-
+  <!-- External dependencies
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   </style>
 
 </head>
 <body>
 
-
-
-<div id="first-hook">
-
+<div id="hook">
 </div>
 
-<div id="second-hook">
-
-</div>
-
-<div id="third-hook">
-
-</div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- Hack to import CSS and HTML into the demo.html -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
   <script type="text/javascript">
-
-    // Hero section
     $('head').append(
-      '<link rel="stylesheet" href="../sections/section_hero_1/section_hero_1.css" type="text/css" />'
+      '<link rel="stylesheet" href="../../sections/section_values_1/section_values_1.css" type="text/css" />'
       );
     $(function(){
-      $("#first-hook").load("../sections/section_hero_1/section_hero_1.html");
-    });
-
-    // Values
-    $('head').append(
-      '<link rel="stylesheet" href="../sections/section_values_1/section_values_1.css" type="text/css" />'
-      );
-    $(function(){
-      $("#second-hook").load("../sections/section_values_1/section_values_1.html");
-    });
-
-    // Testimonial
-    $('head').append(
-      '<link rel="stylesheet" href="../sections/section_testimonial_1/section_testimonial_1.css" type="text/css" />'
-      );
-    $(function(){
-      $("#third-hook").load("../sections/section_testimonial_1/section_testimonial_1.html");
+      $("#hook").load("../../sections/section_values_1/section_values_1.html");
     });
   </script>
+
 </body>
 </html>

@@ -1,8 +1,8 @@
  /* section_testimonial_1 Start of CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .testimonial {text-align: left;}
+    .t1 {text-align: left;}
 
-    .t-text {
+    .t1-text {
         padding: 12px 20px;
         background-color: #fff;
         border: 1px solid #D1D1D1;
@@ -14,7 +14,7 @@
         box-shadow: 1px 1px 1px #888888;
     }
 
-    .t-text:after,  .t-text:before {
+    .t1-text:after,  .t1-text:before {
       top: 100%;
       left: 40px;
       border: solid transparent;
@@ -25,14 +25,14 @@
       pointer-events: none;
     }
 
-    .t-text:after {
+    .t1-text:after {
       border-color: transparent;
       border-top-color: #ffffff;
       border-width: 15px;
       margin-left: -15px;
     }
 
-    .t-text:before {
+    .t1-text:before {
 
       border-color: transparent;
       border-top-color: #d1d1d1;
@@ -40,31 +40,31 @@
       margin-left: -16px;
     }
 
-    .t-author {
+    .t1-author {
       font-size: 1.2rem;
       margin-bottom: 50px;
     }
 
-    .t-author img {
+    .t1-author img {
       width: 80px;
       height: 80px;
       border-radius: 50%;
       border: 1px solid #D1D1D1;
     }
 
-    .t-name {
+    .t1-name {
       padding-top: 15px;
       font-weight: 700;
     }
-    .t-name, .t-company {
+    .t1-name, .t1-company {
       margin-left: 90px;
     }
 
-  q { quotes: "\201C""\201D""\2018""\2019"; }
+  .t1 q { quotes: "\201C""\201D""\2018""\2019"; }
 
-  q:before { content: open-quote;font-family: 'sans serif'; }
+  .t1 q:before { content: open-quote;font-family: 'sans serif'; }
 
-  q:after  { content: close-quote;font-family: 'sans serif'; }
+  .t1 q:after  { content: close-quote;font-family: 'sans serif'; }
 
 
 /* section_testimonial_1 End of CSS
