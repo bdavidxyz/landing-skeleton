@@ -123,6 +123,10 @@ Thus, it will be easier to remove the right section and to locate code.
 
 ** Same principle apply for HTML file, see section_hero_2.html for an example**
 
+### Pictures are not commited
+
+Because each picture is made to be deleted and replaced, there is no point commiting it into the repository. Instead, send it to a cloud service and reference them. See section_hero_1 for example.
+
 ### Things to avoid
 
 Never use an existing logo
@@ -130,6 +134,14 @@ Never use real name of people
 Never use real photo of people
 
 There are tons of free pictures and icons, fake name are easy to create.
+
+### Use common properties as much as possible
+
+Look at file css/shared.css
+
+It is a collection of shared properties through sections.
+
+For example, by using the same marginbottom40 in each section, they become "compatible" each others.
 
 ### Use of font and typefaces
 

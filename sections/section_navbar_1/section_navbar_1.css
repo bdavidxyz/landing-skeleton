@@ -1,0 +1,111 @@
+header {
+  overflow: hidden;
+   border-bottom: 1px solid #eee;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+.n1 .marginizer {
+  margin-right: 13%;
+  margin-left: 13%;
+}
+
+.n1 .anchor{
+  display: block;
+  height: 60px; /*same height as header*/
+  margin-top: -60px; /*same height as header*/
+  visibility: hidden;
+}
+
+.n1 header a, .n1 header label {
+  display: block;
+  padding: 20px;
+  color: #222;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.n1 header a:hover, .n1 header label:hover { color: #aaa; }
+
+.n1 header label {
+  float: right;
+  padding: 18px 20px;
+  cursor: pointer;
+}
+
+.n1 header label:after {
+  content: "\2261";
+  font-size: 1.8em;
+}
+
+.n1 .logo {
+  float: left;
+  font-weight: normal;
+  font-size: 2rem;
+  padding-left: 0px;
+}
+
+.n1 nav {
+  float: right;
+  max-height: 0;
+  width: 100%;
+  -webkit-transition: max-height 0.4s;
+     -moz-transition: max-height 0.4s;
+       -o-transition: max-height 0.4s;
+          transition: max-height 0.4s;
+}
+
+.n1 nav ul {
+  margin: 0;
+  padding: 0;
+   padding-bottom: 10px;
+}
+
+.n1 nav li {
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.n1 nav a {
+  padding: 10px;
+  width: 100%;
+}
+
+.n1 #nav { display: none; }
+
+.n1 #nav:checked ~ nav {
+  max-height: 200px; /* This can be anything bigger than your nav height. The transition duration works with this */
+}
+
+
+@media only screen and (min-width: 700px) {
+
+
+
+  .n1 header label { display: none; }
+
+  .n1 nav {
+    width: auto;
+    max-height: none;
+  }
+
+  .n1 nav ul {
+    padding: 0;
+    padding-right: 10px;
+  }
+
+  .n1 nav li {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .n1 header nav a {
+    display: inline-block;
+    padding: 20px 10px;
+    width: auto;
+  }
+
+}
