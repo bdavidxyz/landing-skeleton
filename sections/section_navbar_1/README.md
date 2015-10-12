@@ -13,17 +13,17 @@
 
 ## Screenshot
 
-![Screenshot](http://res.cloudinary.com/landingskeleton/image/upload/v1444638725/section_hero_1_tkyust.png)
+![Screenshot](http://res.cloudinary.com/landingskeleton/image/upload/v1444657945/section_navbar_1_kytpgg.png)
 
 ## Screenshot responsive
 
-![Screenshot](http://res.cloudinary.com/landingskeleton/image/upload/v1444638492/robinhood_fzc82x.png)
+![Screenshot](http://res.cloudinary.com/landingskeleton/image/upload/v1444657940/section_navbar_1_responsive_i3h85x.png)
 
 ## Design notes
 
 Check yourself
 
-Navbar require a very little coding effort : you must link section with navigation
+Navbar require a very little coding effort : you must link section ids with href of menus so that navigation works.
 
 
 
