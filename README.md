@@ -7,12 +7,11 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Landing skeleton](#landing-skeleton)
-  - [About Landing Skeleton](#about-landing-skeleton)
-    - [Key benefits](#key-benefits)
-    - [Contact me](#contact-me)
-  - [How to Contribute](#how-to-contribute)
-    - [[GitHub Issues](//github.com/davidb583/landing-skeleton/issues)](#github-issuesgithubcomdavidb583landing-skeletonissues)
+- [About Landing Skeleton](#about-landing-skeleton)
+  - [Key benefits](#key-benefits)
+  - [Contact me](#contact-me)
+- [How to Contribute](#how-to-contribute)
+  - [[GitHub Issues](//github.com/davidb583/landing-skeleton/issues)](#github-issuesgithubcomdavidb583landing-skeletonissues)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
