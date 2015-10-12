@@ -153,7 +153,7 @@ The end user have the ability to change them, etc but each section MUST conform 
 
 ### Use of external dependencies
 
-You should avoid use of external dependencies (jQuery, fontawesome) as much as possible. In order not to decrease display speed of the landing page. Unless stricly necessary AND well documented in the README.md of the section.
+You should avoid use of external dependencies (jQuery, fontawesome, ...) as much as possible. In order not to decrease display speed of the landing page. Unless stricly necessary AND well documented in the README.md of the section.
 
 ## Run doctoc
 
