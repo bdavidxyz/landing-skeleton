@@ -76,7 +76,7 @@ There are different kind of sections, with the letter that defines them.
 
 ### Naming convention
 
-Here is the naming convention : name-number. The number is the first available number for the given section.
+Here is the naming convention to prefix css class name: nameNumber. The number is the first available number for the given section.
 
 Example : is there are already 2 hero_section, your new hero section will be name section_hero_3, and css selector must ALL start with .r3- to avoid naming collision.
 
@@ -113,14 +113,14 @@ It is mandatory to add a README for your section.
 ```
 README.md
 ├── screenshot
-├── example_of_use
-└── inspired_by
+├── inspired_by
+└── design_notes
 ```
+
+see existing READMEs to see how each section helps the user to get the right section.
 
 ## Make a pull request
 
 See [official Github guide](https://help.github.com/articles/using-pull-requests/)
 
-## Updating docs
 
-wip
