@@ -8,14 +8,11 @@ the process of getting changes merged in and released.
 - [Setting up LandingSkeleton locally](#setting-up-landingskeleton-locally)
 - [Adding a new section](#adding-a-new-section)
   - [Don't reinvent the wheel](#dont-reinvent-the-wheel)
-  - [Hook it to an example](#hook-it-to-an-example)
   - [Different kind of sections](#different-kind-of-sections)
   - [Write code for only one section at a time](#write-code-for-only-one-section-at-a-time)
   - [Naming convention](#naming-convention)
   - [Folder and file structure](#folder-and-file-structure)
-- [add a README.md for your section](#add-a-readmemd-for-your-section)
 - [Make a pull request](#make-a-pull-request)
-- [Updating docs](#updating-docs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -37,21 +34,10 @@ Here are a few guidelines when you want to add a new section to the tool.
 
 ### Don't reinvent the wheel
 
-Be inspired by an existing section of an existing landing page of an existing
+Be inspired by an existing section of an existing landing page of an existing company. They already did a great job of creation, so don't suffer from [NIH syndrom](https://en.wikipedia.org/wiki/Not_invented_here)
 
- - Don't reinvent the wheel : great designer already thought well about
- - Be minimalistic
+Notice that all sections are minimalistic, with lots of whitespace, white background, black text. Try to stick to it, so that your section can be combined with any other section.
 
-### Hook it to an example
-
-Before to code a section, you must provide reference the not-yet-existing section into an example_N.html.
-
-This way,
-
- - User can see an example of your section,
- - You can work, iterate on the section you're working on through a real, working sample.
-
-For example, see how **section_hero_2** is used in **example_2.html**
 
 ### Different kind of sections
 
@@ -86,10 +72,13 @@ Folders and files will be as follow :
 
 ```
 section_hero_3/
+├── demo.html
 ├── section_hero_3.css
 ├── section_hero_3.html
 └── README.md
 ```
+
+Each filename should speak by itself. Please note you **MUST** provide a demo and a README for each section.
 
 Selectors within section_hero_3.css will be for exemple as follow
 
@@ -107,17 +96,6 @@ Selectors within section_hero_3.css will be for exemple as follow
 
 Look at section_hero_2 for an example of how things works.
 
-## add a README.md for your section
-
-It is mandatory to add a README for your section.
-```
-README.md
-├── screenshot
-├── inspired_by
-└── design_notes
-```
-
-see existing READMEs to see how each section helps the user to get the right section.
 
 ## Make a pull request
 
