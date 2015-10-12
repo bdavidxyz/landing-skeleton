@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Section Hero 1](#section-hero-1)
+- [Section Feature 1](#section-feature-1)
   - [Screenshot](#screenshot)
   - [Inspired by Lumenaki](#inspired-by-lumenaki)
   - [External dependencies](#external-dependencies)
@@ -10,7 +10,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Section Hero 1
+# Section Feature 1
 
 ## Screenshot
 
