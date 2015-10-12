@@ -1,22 +1,67 @@
-/* section_hero_1  Start of CSS
+/* section_feature_1  Start of CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-
-.f1 ul, li{ list-style:none;}
-.f1 a, input, select, textarea, .btn {transition: all 0.25s ease-in 0s; -webkit-transition: all 0.25s ease-in 0s; -moz-transition: all 0.25s ease-in 0s; -o-transition: all 0.25s ease-in 0s; outline:none;}
-.f1 a{ color:#1f1d22;}
-.f1 a:hover{ outline:none; cursor:pointer; color:#2253e0; text-decoration:none;}
-.f1 a:focus {outline:none; text-decoration:none}
-.f1 .full-width{float:left; width:100%;}
-.f1 .relative{position:relative}
-.f1 .center{ text-align:center;}
-
-.f1 .feature_block{ width:100%; padding:60px 0;}
-.f1 .feature-items{ position:relative;}
-.f1 .feature-items .disc{ width:60px; height:60px; line-height:60px; border-radius:100%; background:#33c3f0; color:#fff; font-size:30px; text-align:center; position:absolute; top:0; left:0;}
-.f1 .feature-items .content{ padding-left:80px;}
-.f1 .feature-items .content h3{ margin-bottom:20px; font-size:22px; color:#222;}
-
-
-/* section_hero_1  End of CSS
+.f1 ul,
+li {
+    list-style: none;
+}
+.f1 a, input, select, textarea, .btn {
+    transition: all 0.25s ease-in 0s;
+    -webkit-transition: all 0.25s ease-in 0s;
+    -moz-transition: all 0.25s ease-in 0s;
+    -o-transition: all 0.25s ease-in 0s;
+    outline: none;
+}
+.f1 a {
+    color: #1f1d22;
+}
+.f1 a:hover {
+    outline: none;
+    cursor: pointer;
+    color: #2253e0;
+    text-decoration: none;
+}
+.f1 a:focus {
+    outline: none;
+    text-decoration: none
+}
+.f1 .full-width {
+    float: left;
+    width: 100%;
+}
+.f1 .relative {
+    position: relative
+}
+.f1 .center {
+    text-align: center;
+}
+.f1 .feature_block {
+    width: 100%;
+    padding: 60px 0;
+}
+.f1 .feature-items {
+    position: relative;
+}
+.f1 .feature-items .disc {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 100%;
+    background: #33c3f0;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.f1 .feature-items .content {
+    padding-left: 80px;
+}
+.f1 .feature-items .content h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #222;
+}
+/* section_feature_1  End of CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

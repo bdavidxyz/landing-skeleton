@@ -1,29 +1,29 @@
 /*
  Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.section {
-  margin: 8rem 0 7rem;
+section {
+  padding: 8rem 0 7rem;
   text-align: center;
 }
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
-  .section {
-    margin: 7rem 0 11rem;
+  section {
+    padding: 7rem 0 11rem;
   }
 }
 
 /* Bigger than 750 */
 @media (min-width: 750px) {
-  .section {
-    margin: 7rem 0 15rem;
+  section {
+    padding: 7rem 0 15rem;
   }
 }
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
-  .section {
-    margin: 7rem 0 19rem;
+  section {
+    padding: 7rem 0 19rem;
   }
 }
 
