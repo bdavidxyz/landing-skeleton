@@ -1,0 +1,210 @@
+header>div {
+  min-height: 61px;
+  line-height: 61px;
+}
+
+header>div>div {
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  background-color: white;
+  min-height: 60px;
+  line-height: 60px;
+
+}
+
+header.fixed>div>div {
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.n2 header a, .n2 header label {
+  display: block;
+  padding: 20px;
+  color: #222;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.n2 header a:hover, .n2 header label:hover { color: #aaa; }
+
+.n2 header label {
+  float: right;
+  padding: 18px 20px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.n2 header label:after {
+  content: "\2261";
+  font-size: 1.8em;
+}
+
+.n2 .logo {
+  float: left;
+  font-weight: normal;
+  font-size: 2rem;
+  padding-left: 0px;
+}
+
+.n2 nav {
+  float: right;
+  max-height: 0;
+  width: 100%;
+  -webkit-transition: max-height 0.4s;
+  -moz-transition: max-height 0.4s;
+  -o-transition: max-height 0.4s;
+  transition: max-height 0.4s;
+}
+
+.n2 nav ul {
+  margin: 0;
+  padding: 0;
+   padding-bottom: 10px;
+}
+
+.n2 nav li {
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.n2 nav a {
+  padding: 10px;
+  width: 100%;
+}
+
+.n2 #nav { display: none; }
+
+.n2 #nav:checked ~ nav {
+  max-height: 200px; /* This can be anything bigger than your nav height. The transition duration works with this */
+}
+
+.n2 form {display: none; margin-bottom: 0;}
+.n2 form input,
+.n2 form button {
+  height: 38px;
+  line-height: 38px;
+  vertical-align: middle;
+}
+
+.n2 form input {max-width: 176px;}
+  
+.n2 header.fixed form {display: block;}
+.n2 header.fixed .not-fixed {display: block;}
+
+/* Mediaqueries */
+@media only screen and (min-width: 920px) {
+
+  .n2 header label { display: none; }
+
+  .n2 nav {
+    width: auto;
+    max-height: none;
+  }
+
+  .n2 nav ul {
+    padding: 0;
+    padding-right: 10px;
+  }
+
+  .n2 nav li {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .n2 header nav a {
+    display: inline-block;
+    padding: 20px 10px;
+    width: auto;
+  }
+
+  .n2 header.fixed .not-fixed {display: none;}
+
+}
+
+/* START ANIMATION */
+header.fixed.slide-in>div>div {
+  -webkit-animation: slideIn 420ms;
+  -moz-animation: slideIn 420ms;
+  -o-animation: slideIn 420ms;
+  -ms-animation: slideIn 420ms;
+  animation: slideIn 420ms;
+}
+
+header.fixed.slide-out>div>div {
+  -webkit-animation: slideOut 420ms;
+  -moz-animation: slideOut 420ms;
+  -o-animation: slideOut 420ms;
+  -ms-animation: slideOut 420ms;
+  animation: slideOut 420ms;
+}
+
+header.fade-in>div>div {
+  -webkit-animation: fadeIn 520ms;
+  -moz-animation: fadeIn 520ms;
+  -o-animation: fadeIn 520ms;
+  -ms-animation: fadeIn 520ms;
+  animation: fadeIn 520ms;
+}
+
+
+
+/* Slide In */
+@-moz-keyframes slideIn {
+  0% {-moz-transform: translate3d(0, -100%, 0);}
+  100% {-moz-transform: translate3d(0, 0, 0);}
+}
+
+@-webkit-keyframes slideIn {
+  0% {-webkit-transform: translate3d(0, -100%, 0);}
+  100% {-webkit-transform: translate3d(0, 0, 0);}
+}
+
+@keyframes slideIn {
+  0% {transform: translate3d(0, -100%, 0);}
+  100% {transform: translate3d(0, 0, 0);}
+}
+
+/*slide Out*/
+@-moz-keyframes slideOut {
+  0% {-moz-transform: translate3d(0, 0, 0);}
+  100% {-moz-transform: translate3d(0, -100%, 0);}
+}
+
+@-webkit-keyframes slideOut {
+  0% {-webkit-transform: translate3d(0, 0, 0);}
+  100% {-webkit-transform: translate3d(0, -100%, 0);}
+}
+
+@keyframes slideOut {
+  0% {transform: translate3d(0, 0, 0);}
+  100% {transform: translate3d(0, -100%, 0);}
+}
+
+/*Fade In*/
+@-moz-keyframes fadeIn {
+  0% {opacity: 0; } 
+  100% {opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0; } 
+  100% {opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0; } 
+  100% {opacity: 1; }
+}
+
+
+/* END ANIMATION */
+
+
+
+
+

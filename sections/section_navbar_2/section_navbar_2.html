@@ -1,0 +1,48 @@
+<!-- section_navbar_2 Start of HTML
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="n2">
+<header id="header">
+    <div>
+      <div>
+        <div class="container container-wide">
+          <a class="logo" href="#">LandingSkeleton</a>
+            <input id="nav" type="checkbox">
+            <label for="nav"></label>
+            <nav>
+              <ul>
+                <li class="not-fixed"><a href="#" onclick="document.getElementById('nav').checked = false;return true;">Intro</a></li>
+                <li><a href="#features" onclick="document.getElementById('nav').checked = false;return true;">Features</a></li>
+                <li><a href="#values" onclick="document.getElementById('nav').checked = false;return true;">Values</a></li>
+                <li class="form">
+                  <form action="">
+                    <input type="email" class="marginnone" placeholder="your@email.com">
+                    <button type="submit" class="button-primary marginnone">Submit</button>
+                  </form>
+                </li>
+              </ul>
+            </nav>
+        </div>
+      </div>
+    </div>
+</header>
+</div>
+<script type='text/javascript'>
+
+var sclog;
+window.onscroll = function() {scrollMove()};
+function scrollMove() {
+  var scrolledTop = (document.documentElement.scrollTop||document.body.scrollTop);
+
+  console.log('scrolled ' + scrolledTop);
+  if (scrolledTop > 250) {
+    document.getElementById("header").className = "fixed slide-in";
+    sclog = true;
+  } else if (sclog == true && scrolledTop == 0) {
+    document.getElementById("header").className = "fixed slide-out";
+    setTimeout(function(){ document.getElementById("header").className = "fade-in" }, 420);
+    sclog = false;
+  }
+}
+</script>
+<!-- section_navbar_2 End of HTML
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
