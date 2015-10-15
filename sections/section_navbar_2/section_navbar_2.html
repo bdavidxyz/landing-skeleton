@@ -31,7 +31,7 @@
 var sclog;
 window.onscroll = function() {scrollMove()};
 function scrollMove() {
-  var scrolledTop = (document.documentElement.scrollTop||document.body.scrollTop);
+  var scrolledTop = window.pageYOffset;
 
   console.log('scrolled ' + scrolledTop);
   if (scrolledTop > 250) {
