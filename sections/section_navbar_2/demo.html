@@ -34,7 +34,7 @@
 </head>
 <body>
 
-
+<div id="hook"></div>
 
 <!-- section_hero_1 Start of HTML
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -208,6 +208,12 @@
   <!-- Hack to import CSS and HTML into the demo.html -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
   <script type="text/javascript">
+    $('head').append(
+      '<link rel="stylesheet" href="../../sections/section_navbar_2/section_navbar_2.css" type="text/css" />'
+      );
+    $(function(){
+      $("#hook").load("../../sections/section_navbar_2/section_navbar_2.html");
+    });
     $('head').append(
       '<link rel="stylesheet" href="../../sections/section_separator_1/section_separator_1.css" type="text/css" />'
       );

@@ -53,6 +53,7 @@
 /* else */
 .r1 .five.columns {
 width: 100%;
+margin-left: 0px;
 }
 .r1-demonstration {
   text-align: center;
